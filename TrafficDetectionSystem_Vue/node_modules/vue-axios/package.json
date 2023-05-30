@@ -1,0 +1,51 @@
+{
+  "name": "vue-axios",
+  "version": "3.5.2",
+  "description": "A small wrapper for integrating axios to Vuejs",
+  "main": "dist/vue-axios.esm.min.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "gulp",
+    "examples": "node examples/server.js"
+  },
+  "typing": "index.d.ts",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcvampire/vue-axios.git"
+  },
+  "keywords": [
+    "vue",
+    "axios",
+    "wrapper"
+  ],
+  "author": "Nguyen Quoc Anh (imcvampire)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imcvampire/vue-axios/issues"
+  },
+  "homepage": "https://github.com/imcvampire/vue-axios#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-file": "^0.4.0",
+    "gulp-filter": "^7.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "merge-stream": "^2.0.0",
+    "rollup": "^2.79.1"
+  },
+  "peerDependencies": {
+    "axios": "*",
+    "vue": "^3.0.0 || ^2.0.0"
+  }
+}
